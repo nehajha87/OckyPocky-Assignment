@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>OckyPocky Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header section starts here -->
+    <header>
+        <h1>Coding Curriculum</h1>
+        <div class="tab">
+            <button class="tablinks" onclick="openCourse(event, 'Beginner')"  id="defaultOpen">Beginner <br><span>(Grade 1)</span></button>
+            <button class="tablinks" onclick="openCourse(event, 'Intermediate')">Intermediate<br><span>(Grade 2-3)</span></button>
+            <button class="tablinks" onclick="openCourse(event, 'Advanced')">Advanced<br><span>(Grade 4-6)</span></button>
+            <button class="tablinks" onclick="openCourse(event, 'Professional')">Professional<br><span>(Grade 7-9)</span></button>
+            <button class="tablinks" onclick="openCourse(event, 'AppliedTech')">Applied Tech<br><span>(Grade 10+)</span></button>
+        </div>
+    </header>
+    <!-- Header Section ends here -->
+
+    <!-- Swictable tab section starts here -->
+    <div id="Beginner" class="tabcontent">
+        <!-- Cards section starts here -->
+        <div class="row">
+            <div class="column">
+              <div class="cards">
+                  <div class="card-part">
+                  <h2>Introduction to Coding</h2>
+                  <p>8 Classes</p>
+                  <a href="">Save 5%</a>
+                  </div>
+                  <div class="card-another-part">
+                  <h3>Curriculum Includes</h3>
+                  <p id="para1"><a href="">Sequence, Fundamentals Coding Blocks, Loops</a></p>
+                  <p id="para2">View Detailed Curriculum</p>
+                  </div>
+                  <div class="third-part">
+                      <p id="para3">Rs.6,399</p>
+                      <p id="para4"><del>Rs.6,799</del></p>
+                      <p id="para5">Price per Class Rs.800</p>
+                  </div>
+                  <button>Buy Now</button>
+              </div>
+            </div>
+            <div class="column">
+                <div class="cards">
+                    <div class="card-part">
+                        <h2>App developer Certificate</h2>
+                    <p>48 Classes</p>
+                    <a href="">Save 10%</a>
+                    </div>
+                    <div class="card-another-part">
+                    <h3>Curriculum Includes</h3>
+                    <a href="" id="a-tag">Introduction to Coding</a>
+                    <p id="para1"><a href="">Events/UI,Conditionals,Complex Loop,Logic Structures,Turtle Coding</a></p>
+                    <p id="para2">View Detailed Curriculum</p>
+                    </div>
+                    <div class="third-part">
+                        <a href="" id="popular">Most Popular</a>
+                        <p id="para3">Rs.35,999</p>
+                        <p id="para4"><del>Rs.39,999</del></p>
+                        <p id="para5">Price per Class Rs.750</p>
+                    </div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="column">
+                <div class="cards">
+                    <div class="card-part">
+                        <h2>Advance Coding With Space tech</h2>
+                    <p>144 Classes</p>
+                    <a href="">Save 16%</a>
+                    </div>
+                    <div class="card-another-part">
+                    <h3>Curriculum Includes</h3>
+                    <a href="" id="a-tag">Introduction to Coding</a>
+                    <p id="para1"><a href="">Sequence, Fundamentals Coding Blocks, Loops</a></p>
+                    <p id="para2">View Detailed Curriculum</p>
+                    </div>
+                    <div class="third-part">
+                        <a href="" id="value">Most Popular</a>
+                        <p id="para3">Rs.99,999</p>
+                        <p id="para4"><del>Rs.119,999</del></p>
+                        <p id="para5">Price per Class Rs.694</p>
+                    </div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+          </div>
+        <!-- Cards section ends here -->
+    </div>
+
+    <div id="Intermediate" class="tabcontent">
+        <h3>Intermediate</h3>
+         <!-- Cards section starts here -->
+         <div class="row">
+            <div class="column">
+              <div class="cards">
+                  <div class="card-part">
+                  <h2>Introduction to Coding</h2>
+                  <p>8 Classes</p>
+                  <a href="">Save 5%</a>
+                  </div>
+                  <div class="card-another-part">
+                  <h3>Curriculum Includes</h3>
+                  <p id="para1"><a href="">Sequence, Fundamentals Coding Blocks, Loops</a></p>
+                  <p id="para2">View Detailed Curriculum</p>
+                  </div>
+                  <div class="third-part">
+                      <p id="para3">Rs.6,399</p>
+                      <p id="para4"><del>Rs.6,799</del></p>
+                      <p id="para5">Price per Class Rs.800</p>
+                  </div>
+                  <button>Buy Now</button>
+              </div>
+            </div>
+            <div class="column">
+                <div class="cards">
+                    <div class="card-part">
+                        <h2>App developer Certificate</h2>
+                    <p>48 Classes</p>
+                    <a href="">Save 10%</a>
+                    </div>
+                    <div class="card-another-part">
+                    <h3>Curriculum Includes</h3>
+                    <a href="" id="a-tag">Introduction to Coding</a>
+                    <p id="para1"><a href="">Events/UI,Conditionals,Complex Loop,Logic Structures,Turtle Coding</a></p>
+                    <p id="para2">View Detailed Curriculum</p>
+                    </div>
+                    <div class="third-part">
+                        <a href="" id="popular">Most Popular</a>
+                        <p id="para3">Rs.35,999</p>
+                        <p id="para4"><del>Rs.39,999</del></p>
+                        <p id="para5">Price per Class Rs.750</p>
+                    </div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="column">
+                <div class="cards">
+                    <div class="card-part">
+                        <h2>Advance Coding With Space tech</h2>
+                    <p>144 Classes</p>
+                    <a href="">Save 16%</a>
+                    </div>
+                    <div class="card-another-part">
+                    <h3>Curriculum Includes</h3>
+                    <a href="" id="a-tag">Introduction to Coding</a>
+                    <p id="para1"><a href="">Sequence, Fundamentals Coding Blocks, Loops</a></p>
+                    <p id="para2">View Detailed Curriculum</p>
+                    </div>
+                    <div class="third-part">
+                        <a href="" id="value">Most Popular</a>
+                        <p id="para3">Rs.99,999</p>
+                        <p id="para4"><del>Rs.119,999</del></p>
+                        <p id="para5">Price per Class Rs.694</p>
+                    </div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+          </div>
+        <!-- Cards section ends here -->
+    </div>
+
+    <div id="Advanced" class="tabcontent">
+        <h3>Advanced</h3>
+         <!-- Cards section starts here -->
+         <div class="row">
+            <div class="column">
+              <div class="cards">
+                  <div class="card-part">
+                  <h2>Introduction to Coding</h2>
+                  <p>8 Classes</p>
+                  <a href="">Save 5%</a>
+                  </div>
+                  <div class="card-another-part">
+                  <h3>Curriculum Includes</h3>
+                  <p id="para1"><a href="">Sequence, Fundamentals Coding Blocks, Loops</a></p>
+                  <p id="para2">View Detailed Curriculum</p>
+                  </div>
+                  <div class="third-part">
+                      <p id="para3">Rs.6,399</p>
+                      <p id="para4"><del>Rs.6,799</del></p>
+                      <p id="para5">Price per Class Rs.800</p>
+                  </div>
+                  <button>Buy Now</button>
+              </div>
+            </div>
+            <div class="column">
+                <div class="cards">
+                    <div class="card-part">
+                        <h2>App developer Certificate</h2>
+                    <p>48 Classes</p>
+                    <a href="">Save 10%</a>
+                    </div>
+                    <div class="card-another-part">
+                    <h3>Curriculum Includes</h3>
+                    <a href="" id="a-tag">Introduction to Coding</a>
+                    <p id="para1"><a href="">Events/UI,Conditionals,Complex Loop,Logic Structures,Turtle Coding</a></p>
+                    <p id="para2">View Detailed Curriculum</p>
+                    </div>
+                    <div class="third-part">
+                        <a href="" id="popular">Most Popular</a>
+                        <p id="para3">Rs.35,999</p>
+                        <p id="para4"><del>Rs.39,999</del></p>
+                        <p id="para5">Price per Class Rs.750</p>
+                    </div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="column">
+                <div class="cards">
+                    <div class="card-part">
+                        <h2>Advance Coding With Space tech</h2>
+                    <p>144 Classes</p>
+                    <a href="">Save 16%</a>
+                    </div>
+                    <div class="card-another-part">
+                    <h3>Curriculum Includes</h3>
+                    <a href="" id="a-tag">Introduction to Coding</a>
+                    <p id="para1"><a href="">Sequence, Fundamentals Coding Blocks, Loops</a></p>
+                    <p id="para2">View Detailed Curriculum</p>
+                    </div>
+                    <div class="third-part">
+                        <a href="" id="value">Most Popular</a>
+                        <p id="para3">Rs.99,999</p>
+                        <p id="para4"><del>Rs.119,999</del></p>
+                        <p id="para5">Price per Class Rs.694</p>
+                    </div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+          </div>
+        <!-- Cards section ends here -->
+    </div>
+
+    <div id="Professional" class="tabcontent">
+        <h3>Professional</h3>
+         <!-- Cards section starts here -->
+         <div class="row">
+            <div class="column">
+              <div class="cards">
+                  <div class="card-part">
+                  <h2>Introduction to Coding</h2>
+                  <p>8 Classes</p>
+                  <a href="">Save 5%</a>
+                  </div>
+                  <div class="card-another-part">
+                  <h3>Curriculum Includes</h3>
+                  <p id="para1"><a href="">Sequence, Fundamentals Coding Blocks, Loops</a></p>
+                  <p id="para2">View Detailed Curriculum</p>
+                  </div>
+                  <div class="third-part">
+                      <p id="para3">Rs.6,399</p>
+                      <p id="para4"><del>Rs.6,799</del></p>
+                      <p id="para5">Price per Class Rs.800</p>
+                  </div>
+                  <button>Buy Now</button>
+              </div>
+            </div>
+            <div class="column">
+                <div class="cards">
+                    <div class="card-part">
+                        <h2>App developer Certificate</h2>
+                    <p>48 Classes</p>
+                    <a href="">Save 10%</a>
+                    </div>
+                    <div class="card-another-part">
+                    <h3>Curriculum Includes</h3>
+                    <a href="" id="a-tag">Introduction to Coding</a>
+                    <p id="para1"><a href="">Events/UI,Conditionals,Complex Loop,Logic Structures,Turtle Coding</a></p>
+                    <p id="para2">View Detailed Curriculum</p>
+                    </div>
+                    <div class="third-part">
+                        <a href="" id="popular">Most Popular</a>
+                        <p id="para3">Rs.35,999</p>
+                        <p id="para4"><del>Rs.39,999</del></p>
+                        <p id="para5">Price per Class Rs.750</p>
+                    </div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="column">
+                <div class="cards">
+                    <div class="card-part">
+                        <h2>Advance Coding With Space tech</h2>
+                    <p>144 Classes</p>
+                    <a href="">Save 16%</a>
+                    </div>
+                    <div class="card-another-part">
+                    <h3>Curriculum Includes</h3>
+                    <a href="" id="a-tag">Introduction to Coding</a>
+                    <p id="para1"><a href="">Sequence, Fundamentals Coding Blocks, Loops</a></p>
+                    <p id="para2">View Detailed Curriculum</p>
+                    </div>
+                    <div class="third-part">
+                        <a href="" id="value">Most Popular</a>
+                        <p id="para3">Rs.99,999</p>
+                        <p id="para4"><del>Rs.119,999</del></p>
+                        <p id="para5">Price per Class Rs.694</p>
+                    </div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+          </div>
+        <!-- Cards section ends here -->
+    </div>
+
+    <div id="AppliedTech" class="tabcontent">
+        <h3>Advanced</h3>
+         <!-- Cards section starts here -->
+         <div class="row">
+            <div class="column">
+              <div class="cards">
+                  <div class="card-part">
+                  <h2>Introduction to Coding</h2>
+                  <p>8 Classes</p>
+                  <a href="">Save 5%</a>
+                  </div>
+                  <div class="card-another-part">
+                  <h3>Curriculum Includes</h3>
+                  <p id="para1"><a href="">Sequence, Fundamentals Coding Blocks, Loops</a></p>
+                  <p id="para2">View Detailed Curriculum</p>
+                  </div>
+                  <div class="third-part">
+                      <p id="para3">Rs.6,399</p>
+                      <p id="para4"><del>Rs.6,799</del></p>
+                      <p id="para5">Price per Class Rs.800</p>
+                  </div>
+                  <button>Buy Now</button>
+              </div>
+            </div>
+            <div class="column">
+                <div class="cards">
+                    <div class="card-part">
+                        <h2>App developer Certificate</h2>
+                    <p>48 Classes</p>
+                    <a href="">Save 10%</a>
+                    </div>
+                    <div class="card-another-part">
+                    <h3>Curriculum Includes</h3>
+                    <a href="" id="a-tag">Introduction to Coding</a>
+                    <p id="para1"><a href="">Events/UI,Conditionals,Complex Loop,Logic Structures,Turtle Coding</a></p>
+                    <p id="para2">View Detailed Curriculum</p>
+                    </div>
+                    <div class="third-part">
+                        <a href="" id="popular">Most Popular</a>
+                        <p id="para3">Rs.35,999</p>
+                        <p id="para4"><del>Rs.39,999</del></p>
+                        <p id="para5">Price per Class Rs.750</p>
+                    </div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="column">
+                <div class="cards">
+                    <div class="card-part">
+                        <h2>Advance Coding With Space tech</h2>
+                    <p>144 Classes</p>
+                    <a href="">Save 16%</a>
+                    </div>
+                    <div class="card-another-part">
+                    <h3>Curriculum Includes</h3>
+                    <a href="" id="a-tag">Introduction to Coding</a>
+                    <p id="para1"><a href="">Sequence, Fundamentals Coding Blocks, Loops</a></p>
+                    <p id="para2">View Detailed Curriculum</p>
+                    </div>
+                    <div class="third-part">
+                        <a href="" id="value">Most Popular</a>
+                        <p id="para3">Rs.99,999</p>
+                        <p id="para4"><del>Rs.119,999</del></p>
+                        <p id="para5">Price per Class Rs.694</p>
+                    </div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+          </div>
+        <!-- Cards section ends here -->
+    </div>
+
+    <!-- Swictable tab section ends here -->
+
+<script src="app.js"></script>
+</body>
+
+</html>
